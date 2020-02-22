@@ -1,0 +1,114 @@
+
+body {
+    background-color: #399;
+
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    border-style: dashed;
+    border-width: 6px;
+    border-color: purple;
+    border-radius: 40px;
+}
+
+.bioTextContainer {
+    background-color: #ff971a;
+    border-radius: 30px;
+}
+
+.bioImage {
+    border-radius: 30px;
+    size: fill;
+}
+
+.active {
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    color:#303030;
+}
+
+.inactive { 
+    Font-family: 'Monoton', cursive;
+    font-size: 30px;
+    color: black;
+}
+
+a.index:hover {
+    color: black;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+
+a.portfolio:hover {
+    color: black;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+
+a.contact:hover {
+    color: black;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+
+.nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    float:none;
+}
+
+h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    font-weight: 900;
+    color: whitesmoke;
+    padding: 15px 10px 3px 10px;
+    text-align: center;
+    word-wrap: justify;
+}
+
+p{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+    padding: 3px 15px 10px 15px;
+    text-align: center;
+    word-wrap: justify;
+}
+
+.carousel-inner {
+    border-radius: 30px;
+}
+
+.carousel {
+}
+
+.portfolioText {
+    border-radius: 30px;
+    background-color: #ff971a;
+}
+
+.contactMe {
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #ff971a;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: orangered;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-inner {
+        margin-bottom: 15px;
+    }
+}
