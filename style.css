@@ -23,31 +23,21 @@ body {
     size: fill;
 }
 
-.active {
-    font-family: 'Monoton', cursive;
-    font-size: 30px;
-    color:#303030;
-}
-
-.inactive { 
+a.nav-link { 
     Font-family: 'Monoton', cursive;
     font-size: 30px;
     color: black;
 }
 
-a.index:hover {
+a.nav-link:hover {
     color: black;
     text-shadow: 2px 2px 2px whitesmoke;
 }
 
-a.portfolio:hover {
-    color: black;
-    text-shadow: 2px 2px 2px whitesmoke;
-}
-
-a.contact:hover {
-    color: black;
-    text-shadow: 2px 2px 2px whitesmoke;
+a.active {
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    color:rgb(58, 58, 58);
 }
 
 .nav {
@@ -107,8 +97,29 @@ p{
     background-color: orangered;
 }
 
+.footer-copyright {
+    font-family: 'Poiret One', cursive;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footerLink {
+    font-family: 'Poiret One', cursive;
+    font-size: 12px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.page-footer {
+    position: sticky
+}
+
 @media screen and (max-width: 768px) {
     .carousel-inner {
+        margin-bottom: 15px;
+    }
+
+    .bioImage {
         margin-bottom: 15px;
     }
 }
