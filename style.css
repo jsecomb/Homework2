@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     padding: 20px;
     border-style: dashed;
     border-width: 6px;
@@ -97,6 +97,10 @@ p{
     background-color: orangered;
 }
 
+.page-footer {
+    position: sticky
+}
+
 .footer-copyright {
     font-family: 'Poiret One', cursive;
     font-size: 12px;
@@ -110,10 +114,6 @@ p{
     color: whitesmoke;
 }
 
-.page-footer {
-    position: sticky
-}
-
 @media screen and (max-width: 768px) {
     .carousel-inner {
         margin-bottom: 15px;
@@ -122,4 +122,7 @@ p{
     .bioImage {
         margin-bottom: 15px;
     }
+
+    .container {
+        width: 100%;
 }
